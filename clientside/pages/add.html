@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <form action="">
+        <form action="" method="post" id="form">
             <div class="head">
                 <h3>ADD CARS</h3>
             </div>
@@ -21,13 +21,13 @@
                 </div>
                 <div class="divs">
                     <label for="name">Brand </label>
-                <select name="" id="">
-                    <option value="">Maruti Suzuki</option>
-                    <option value="">Hyundai</option>
-                    <option value="">Tata Motors</option>
-                    <option value="">Toyota</option>
-                    <option value="">Renault</option>
-                    <option value="">Mahindra</option>
+                <select name="" id="brand">
+                    <option >Maruti Suzuki</option>
+                    <option >Hyundai</option>
+                    <option >Tata Motors</option>
+                    <option >Toyota</option>
+                    <option >Renault</option>
+                    <option >Mahindra</option>
                 </select>
                 </div>
                 <div class="divs">
@@ -37,9 +37,9 @@
                 </div>
                 <div class="divs">
                     <label for="name">Fuel type </label>
-                <select name="" id="">
-                    <option value="">Diesel</option>
-                    <option value="">Petrol</option>
+                <select name="" id="fuel_type">
+                    <option >Diesel</option>
+                    <option >Petrol</option>
                 </select>
                 </div>
                 <div class="divs">
@@ -49,35 +49,43 @@
                 </div>
                 <div class="divs">
                     <label for="name">Colour </label>
-                <select name="" id="">
-                    <option value="">Black</option>
-                    <option value="">White</option>
-                    <option value="">Red</option>
-                    <option value="">Blue</option>
-                    <option value="">Orange</option>
-                    <option value="">yellow</option>
+                <select name="" id="colour">
+                    <option >Black</option>
+                    <option >White</option>
+                    <option >Red</option>
+                    <option >Blue</option>
+                    <option >Orange</option>
+                    <option >yellow</option>
                 </select>
                 </div>
                 <div class="divs">
                     <label for="name">Seats </label>
-                <select name="" id="">
-                    <option value="">4 seater</option>
-                    <option value="">5 seater</option>
-                    <option value="">7 seater</option>
-                    <option value="">8 seater</option>
+                <select name="" id="seat">
+                    <option >4 seater</option>
+                    <option >5 seater</option>
+                    <option >7 seater</option>
+                    <option >8 seater</option>
                 </select>
                 </div>
            
             </div>
             <div class="rgtform">
                 <div class="file">
-                    <input type="file" multiple>
+                    <input type="file" id="profile" multiple >
                 </div>
                 <div class="picsdiv">
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
+                    <div class="box">
+                        <img id="imag1" src="" alt="">
+                    </div>
+                    <div class="box">
+                        <img id="imag2" src="" alt="">
+                    </div>
+                    <div class="box">
+                        <img id="imag3" src="" alt="">
+                    </div>
+                    <div class="box">
+                        <img id="imag4" src="" alt="">
+                    </div>
 
                 </div>
             </div>

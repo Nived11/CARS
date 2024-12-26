@@ -1,7 +1,6 @@
 import express from "express";
 import env from "dotenv";
 import connection from "./connection.js";
-import router from "./router.js"
 env.config() 
 
 const app=express();
