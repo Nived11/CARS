@@ -8,7 +8,7 @@ const carSchema = new mongoose.Schema({
     milage:{type:String},
     colour:{type:String},
     seat:{type:String},
-    profile:{type:String},
+    profile:{type:Array},
 })
 
 export default mongoose.model.Cars||mongoose.model("Car",carSchema)
